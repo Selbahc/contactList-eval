@@ -17,7 +17,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App container">
         <ul>
           {this.state &&
             this.state.contacts.map((contact, i) => {
